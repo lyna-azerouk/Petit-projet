@@ -24,7 +24,7 @@ public class test {
 	FileWriter writer_csv = new FileWriter("Histogramme.csv");
 //	writer_csv.write("type, time_nanosec\n");
 	long totale_welzl=0 , totale_naif=0 ; 
-	for (int i = 2; i <= 200; i++) {
+	for (int i = 2; i <= 1631; i++) {
 		//List de points de chaque fichier
 		ArrayList<Point> points = new ArrayList<Point>();
 		try {
@@ -55,9 +55,9 @@ public class test {
 		}
 	}
 	writer_result.close();
-	writer_csv.write("Wzel "+ totale_welzl/200+"\n" );
+	writer_csv.write("Wzel "+ totale_welzl/1630+"\n" );
 	
-	writer_csv.write("Naif, "+ totale_naif/200 );
+	writer_csv.write("Naif "+ totale_naif/1630 );
 	writer_csv.close(); 
 
 }
