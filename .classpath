@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-18"/>
+	<classpathentry kind="lib" path="/CPA_tme2/jars/TME2_supportGUI.jar"/>
+	<classpathentry kind="lib" path="C:/Users/azero/Downloads/TME2etTME3_cpa2022 (2).jar"/>
+	<classpathentry kind="lib" path="C:/Users/azero/Downloads/TME2etTME3_cpa2022 (2)/jars/TME2_supportGUI.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
