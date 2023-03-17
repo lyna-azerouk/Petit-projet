@@ -1,16 +1,15 @@
-package test;
+package algorithms;
 
 import java.awt.Point;
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-
-import algorithms.DefaultTeam;
-import algorithms.Naif;
 
 public class test {
 	protected static String samplesDirName = "../Samples";
@@ -22,7 +21,7 @@ public class test {
 	DefaultTeam welzl = new DefaultTeam();
 	long temps1, temps2;
 	FileWriter writer_result = new FileWriter(result, true);
-	FileWriter writer_csv = new FileWriter("Histogramme.csv");
+	FileWriter writer_csv = new FileWriter("Histogramme.txt");
 //	writer_csv.write("type, time_nanosec\n");
 	long totale_welzl=0 , totale_naif=0 ; 
 	for (int i = 2; i <= 1631; i++) {
@@ -56,9 +55,9 @@ public class test {
 		}
 	}
 	writer_result.close();
-	writer_csv.write("Wzel "+ totale_welzl/1630+"\n" );
+	writer_csv.write(totale_welzl/1630+"\n" );
 	
-	writer_csv.write("Naif "+ totale_naif/1630 );
+	writer_csv.write((totale_naif/1630)+"\n" );
 	writer_csv.close(); 
 
 }
