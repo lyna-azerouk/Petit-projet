@@ -1,4 +1,4 @@
-package algorithms;
+package test;
 
 import java.awt.Point;
 import java.io.BufferedReader;
@@ -10,6 +10,9 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+
+import algorithms.DefaultTeam;
+import algorithms.Naif;
 
 public class test {
 	protected static String samplesDirName = "../Samples";
