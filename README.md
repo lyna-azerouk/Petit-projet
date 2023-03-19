@@ -10,3 +10,6 @@ L'algorithme de  Welzl se trouve sur le fichier src\DefaultTeam :
 Le fichier test.java  pour calculer le temps d'exection sur les tests de recupérées de Varoumas les resultat sont dans le fichier "result.txt"  .
 
 Le fichier Python Histo.Py pour construire le fichier stat.csv 
+
+Dossier screen : 
+ 3 screnns de cercle minimum 
