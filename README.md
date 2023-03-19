@@ -12,4 +12,4 @@ Le fichier test.java  pour calculer le temps d'exection sur les tests de recupé
 Le fichier Python Histo.Py pour construire le fichier stat.csv 
 
 Dossier screen : 
- 3 screnns de cercle minimum 
+ 3 screnns de cercle minimum  avec Welzl et Naif 
